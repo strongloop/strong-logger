@@ -24,7 +24,7 @@ logger.error(new Error('Something horrible!'));
 The output is simple and unceromonious, which is exactly what you want in
 development.
 ```
-DEBUG ARGV: ["node","/Users/ryan/work/strong-supervisor/test/logger-app"]
+DEBUG ARGV: ["node","/Users/ryan/work/strong-logger/test.js"]
 INFO application started
 WARN about to do something horrible!
 ERROR [Error: Something horrible!]
