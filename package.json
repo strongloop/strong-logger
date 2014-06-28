@@ -1,0 +1,22 @@
+{
+  "name": "strong-logger",
+  "version": "0.0.0",
+  "description": "A very simple logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js > /dev/null && echo OK || echo FAIL"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop/strong-logger.git"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Ryan Graham <ryan@strongloop.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strongloop/strong-logger/issues"
+  },
+  "homepage": "https://github.com/strongloop/strong-logger"
+}
