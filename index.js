@@ -1,12 +1,14 @@
 var util = require('util');
 
-var levels = [
-  'DEBUG', 'INFO', 'WARN', 'ERROR'
-];
+module.exports = {
+  debug: makeLogger('DEBUG'),
+  info: makeLogger('INFO'),
+  warn: makeLogger('WARN'),
+  error: makeLogger('ERROR'),
+};
 
-levels.forEach(function(level) {
-  module.exports[level.toLowerCase()] = function() {
+function makeLogger(level) {
+  return function() {
     console.log('%s %s', level, util.format.apply(util, arguments));
-  };
-});
-
+  }
+}
