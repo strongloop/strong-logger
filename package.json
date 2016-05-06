@@ -1,6 +1,6 @@
 {
   "name": "strong-logger",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "A very simple logger",
   "main": "index.js",
   "scripts": {
